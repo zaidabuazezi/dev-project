@@ -1,0 +1,13 @@
+# Local secrets: never commit real credentials.
+.env
+.env.local
+
+# Disposable logs and dependencies.
+*.log
+node_modules/
+dist/
+
+# Operating system and editor files.
+.DS_Store
+Thumbs.db
+.vscode/
